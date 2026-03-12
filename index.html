@@ -4,399 +4,303 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>信息展示页面</title>
+
 <style>
-*{box-sizing:border-box;}
+
 body{
-  margin:0;
-  font-family:"Microsoft YaHei",Arial,sans-serif;
-  background:#3ea2e3;
+margin:0;
+font-family:微软雅黑;
+background:#3ea2e3;
 }
+
 .container{
-  width:1100px;
-  max-width:100%;
-  margin:auto;
-  background:#f5efd7;
-  padding-bottom:30px;
-  box-shadow:0 0 18px rgba(0,0,0,.15);
+width:1100px;
+max-width:100%;
+margin:auto;
+background:#f5efd7;
 }
+
 .title{
-  text-align:center;
-  font-size:34px;
-  color:#158a1e;
-  padding:20px 10px;
-  font-weight:bold;
-  background:#efe5c8;
-  border-bottom:1px solid #d6cf78;
+text-align:center;
+font-size:34px;
+color:#158a1e;
+padding:20px;
+font-weight:bold;
+background:#efe5c8;
+border-bottom:1px solid #d6cf78;
 }
-.top-tip{
-  text-align:center;
-  font-size:14px;
-  color:#7a6b46;
-  padding:10px;
-  background:#faf3de;
-  border-bottom:1px solid #ddd2a0;
-}
-.period-banner{
-  text-align:center;
-  font-size:30px;
-  color:#158a1e;
-  padding:14px 10px;
-  font-weight:bold;
-  background:#efe5c8;
-  border-top:1px solid #d6cf78;
-  border-bottom:1px solid #d6cf78;
-}
+
 table{
-  width:100%;
-  border-collapse:collapse;
-  background:#fff;
+width:100%;
+border-collapse:collapse;
+background:#fff;
 }
+
 td{
-  border:1px solid #d6cf78;
-  text-align:center;
-  padding:12px 8px;
+border:1px solid #d6cf78;
+text-align:center;
+padding:12px;
 }
+
 .left{
-  width:25%;
-  background:#e8f0d0;
-  font-size:20px;
-  font-weight:bold;
+width:25%;
+background:#e8f0d0;
+font-size:20px;
+font-weight:bold;
 }
+
 .center{
-  width:50%;
-  font-size:30px;
-  color:#e02020;
-  font-weight:bold;
-  letter-spacing:2px;
+width:50%;
+font-size:30px;
+color:#e02020;
+font-weight:bold;
 }
+
 .right{
-  width:25%;
-  background:#e8f0d0;
-  font-size:18px;
+width:25%;
+background:#e8f0d0;
+font-size:18px;
 }
-.tag{
-  display:inline-block;
-  padding:4px 10px;
-  border-radius:999px;
-  background:#fff0c8;
-  color:#8b5a00;
-  font-size:14px;
-  font-weight:bold;
-}
+
 .ad{
-  text-align:center;
-  padding:20px 10px;
-  background:#f5efd7;
+text-align:center;
+padding:18px;
+background:#f5efd7;
 }
+
 .ad img{
-  max-width:95%;
-  height:auto;
-  cursor:pointer;
-  border:3px solid #ddd;
-  box-shadow:0 4px 12px rgba(0,0,0,.08);
+max-width:95%;
+cursor:pointer;
+border:3px solid #ddd;
 }
+
+.banner{
+text-align:center;
+font-size:28px;
+color:#158a1e;
+padding:14px;
+font-weight:bold;
+background:#efe5c8;
+border-top:1px solid #d6cf78;
+border-bottom:1px solid #d6cf78;
+}
+
 .footer{
-  text-align:center;
-  padding:20px;
-  font-size:14px;
-  color:#666;
+text-align:center;
+padding:20px;
+font-size:14px;
+color:#666;
 }
-@media (max-width:768px){
-  .title{font-size:26px;}
-  .period-banner{font-size:22px;}
-  .left,.right{font-size:14px;padding:10px 6px;}
-  .center{font-size:20px;letter-spacing:1px;}
-}
+
 </style>
+
 </head>
+
 <body>
+
 <div class="container">
 
-  <div class="title">独家编辑 · 信息展示页面</div>
-  <div class="top-tip">页面内容为排版演示示例，点击中间图片可查看相关公开资料</div>
+<div class="title">
+信息展示页面
+</div>
 
-  <div class="period-banner">075期 信息展示</div>
-  <table>
-    <tr><td class="left">075期九项</td><td class="center">鼠 牛 虎 兔 龙 蛇 马 羊 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">075期六项</td><td class="center">虎 龙 马 猴 鸡 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">075期四项</td><td class="center">龙 马 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">075期三项</td><td class="center">马 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">075期一行谜语</td><td class="center">青山一道同云雨</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">075期单项记录</td><td class="center">猴</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
 
-  <div class="period-banner">074期 信息展示</div>
-  <table>
-    <tr><td class="left">074期九项</td><td class="center">牛 虎 兔 龙 蛇 马 羊 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">074期六项</td><td class="center">兔 龙 羊 猴 鸡 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">074期四项</td><td class="center">龙 羊 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">074期三项</td><td class="center">羊 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">074期一行谜语</td><td class="center">春风又绿江南岸</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">074期单项记录</td><td class="center">鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<!-- 顶部广告 -->
 
-  <div class="period-banner">073期 信息展示</div>
-  <table>
-    <tr><td class="left">073期九项</td><td class="center">虎 兔 龙 蛇 马 羊 猴 鸡 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">073期六项</td><td class="center">龙 蛇 马 羊 鸡 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">073期四项</td><td class="center">蛇 马 羊 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">073期三项</td><td class="center">马 羊 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">073期一行谜语</td><td class="center">明月何时照我还</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">073期单项记录</td><td class="center">羊</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<div class="ad">
+<a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank">
+<img src="p4.png">
+</a>
+</div>
 
-  <div class="ad">
-    <a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank" rel="noopener noreferrer">
-      <img src="p1.png" alt="图片1">
-    </a>
-  </div>
+<div class="ad">
+<a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank">
+<img src="p5.png">
+</a>
+</div>
 
-  <div class="period-banner">072期 信息展示</div>
-  <table>
-    <tr><td class="left">072期九项</td><td class="center">兔 龙 蛇 马 羊 猴 鸡 狗 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">072期六项</td><td class="center">龙 马 羊 猴 狗 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">072期四项</td><td class="center">马 羊 猴 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">072期三项</td><td class="center">羊 猴 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">072期一行谜语</td><td class="center">花开时节又逢君</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">072期单项记录</td><td class="center">猪</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
 
-  <div class="period-banner">071期 信息展示</div>
-  <table>
-    <tr><td class="left">071期九项</td><td class="center">龙 蛇 马 羊 猴 鸡 狗 猪 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">071期六项</td><td class="center">蛇 马 猴 鸡 猪 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">071期四项</td><td class="center">马 猴 鸡 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">071期三项</td><td class="center">猴 鸡 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">071期一行谜语</td><td class="center">山重水复疑无路</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">071期单项记录</td><td class="center">鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<div class="banner">075期 信息展示</div>
 
-  <div class="period-banner">070期 信息展示</div>
-  <table>
-    <tr><td class="left">070期九项</td><td class="center">蛇 马 羊 猴 鸡 狗 猪 鼠 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">070期六项</td><td class="center">马 羊 鸡 狗 鼠 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">070期四项</td><td class="center">羊 鸡 狗 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">070期三项</td><td class="center">鸡 狗 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">070期一行谜语</td><td class="center">柳暗花明又一村</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">070期单项记录</td><td class="center">狗</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<table>
 
-  <div class="period-banner">069期 信息展示</div>
-  <table>
-    <tr><td class="left">069期九项</td><td class="center">马 羊 猴 鸡 狗 猪 鼠 牛 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">069期六项</td><td class="center">羊 猴 狗 猪 牛 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">069期四项</td><td class="center">猴 狗 猪 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">069期三项</td><td class="center">狗 猪 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">069期一行谜语</td><td class="center">风吹草低见牛羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">069期单项记录</td><td class="center">虎</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">075期九项</td>
+<td class="center">鼠 牛 虎 兔 龙 蛇 马 羊 猴</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">068期 信息展示</div>
-  <table>
-    <tr><td class="left">068期九项</td><td class="center">羊 猴 鸡 狗 猪 鼠 牛 虎 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">068期六项</td><td class="center">猴 鸡 猪 鼠 虎 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">068期四项</td><td class="center">鸡 猪 鼠 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">068期三项</td><td class="center">猪 鼠 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">068期一行谜语</td><td class="center">江流天地外山色有无中</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">068期单项记录</td><td class="center">兔</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">075期六项</td>
+<td class="center">虎 龙 马 猴 鸡 狗</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="ad">
-    <a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank" rel="noopener noreferrer">
-      <img src="p2.png" alt="图片2">
-    </a>
-  </div>
+<tr>
+<td class="left">075期四项</td>
+<td class="center">龙 马 猴 鸡</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">067期 信息展示</div>
-  <table>
-    <tr><td class="left">067期九项</td><td class="center">猴 鸡 狗 猪 鼠 牛 虎 兔 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">067期六项</td><td class="center">鸡 狗 鼠 牛 兔 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">067期四项</td><td class="center">狗 鼠 牛 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">067期三项</td><td class="center">鼠 牛 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">067期一行谜语</td><td class="center">两岸猿声啼不住</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">067期单项记录</td><td class="center">龙</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">075期三项</td>
+<td class="center">马 猴 鸡</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">066期 信息展示</div>
-  <table>
-    <tr><td class="left">066期九项</td><td class="center">鸡 狗 猪 鼠 牛 虎 兔 龙 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">066期六项</td><td class="center">狗 猪 牛 虎 龙 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">066期四项</td><td class="center">猪 牛 虎 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">066期三项</td><td class="center">牛 虎 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">066期一行谜语</td><td class="center">千里江陵一日还</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">066期单项记录</td><td class="center">蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">075期一行谜语</td>
+<td class="center">青山一道同云雨</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">065期 信息展示</div>
-  <table>
-    <tr><td class="left">065期九项</td><td class="center">狗 猪 鼠 牛 虎 兔 龙 蛇 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">065期六项</td><td class="center">猪 鼠 虎 兔 蛇 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">065期四项</td><td class="center">鼠 虎 兔 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">065期三项</td><td class="center">虎 兔 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">065期一行谜语</td><td class="center">孤帆远影碧空尽</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">065期单项记录</td><td class="center">马</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+</table>
 
-  <div class="period-banner">064期 信息展示</div>
-  <table>
-    <tr><td class="left">064期九项</td><td class="center">猪 鼠 牛 虎 兔 龙 蛇 马 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">064期六项</td><td class="center">鼠 牛 兔 龙 马 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">064期四项</td><td class="center">牛 兔 龙 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">064期三项</td><td class="center">兔 龙 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">064期一行谜语</td><td class="center">唯见长江天际流</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">064期单项记录</td><td class="center">羊</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
 
-  <div class="period-banner">063期 信息展示</div>
-  <table>
-    <tr><td class="left">063期九项</td><td class="center">鼠 牛 虎 兔 龙 蛇 马 羊 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">063期六项</td><td class="center">牛 虎 龙 蛇 羊 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">063期四项</td><td class="center">虎 龙 蛇 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">063期三项</td><td class="center">龙 蛇 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">063期一行谜语</td><td class="center">白云深处有人家</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">063期单项记录</td><td class="center">猴</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<div class="ad">
+<a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank">
+<img src="p1.png">
+</a>
+</div>
 
-  <div class="ad">
-    <a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank" rel="noopener noreferrer">
-      <img src="p3.png" alt="图片3">
-    </a>
-  </div>
 
-  <div class="period-banner">062期 信息展示</div>
-  <table>
-    <tr><td class="left">062期九项</td><td class="center">牛 虎 兔 龙 蛇 马 羊 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">062期六项</td><td class="center">虎 兔 蛇 马 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">062期四项</td><td class="center">兔 蛇 马 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">062期三项</td><td class="center">蛇 马 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">062期一行谜语</td><td class="center">月落乌啼霜满天</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">062期单项记录</td><td class="center">鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<div class="banner">074期 信息展示</div>
 
-  <div class="period-banner">061期 信息展示</div>
-  <table>
-    <tr><td class="left">061期九项</td><td class="center">虎 兔 龙 蛇 马 羊 猴 鸡 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">061期六项</td><td class="center">兔 龙 马 羊 鸡 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">061期四项</td><td class="center">龙 马 羊 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">061期三项</td><td class="center">马 羊 狗</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">061期一行谜语</td><td class="center">江枫渔火对愁眠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">061期单项记录</td><td class="center">狗</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<table>
 
-  <div class="period-banner">060期 信息展示</div>
-  <table>
-    <tr><td class="left">060期九项</td><td class="center">兔 龙 蛇 马 羊 猴 鸡 狗 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">060期六项</td><td class="center">龙 蛇 羊 猴 狗 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">060期四项</td><td class="center">蛇 羊 猴 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">060期三项</td><td class="center">羊 猴 猪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">060期一行谜语</td><td class="center">夜半钟声到客船</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">060期单项记录</td><td class="center">猪</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">074期九项</td>
+<td class="center">牛 虎 兔 龙 蛇 马 羊 猴 鸡</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">059期 信息展示</div>
-  <table>
-    <tr><td class="left">059期九项</td><td class="center">龙 蛇 马 羊 猴 鸡 狗 猪 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">059期六项</td><td class="center">蛇 马 猴 鸡 猪 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">059期四项</td><td class="center">马 猴 鸡 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">059期三项</td><td class="center">猴 鸡 鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">059期一行谜语</td><td class="center">牧童遥指杏花村</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">059期单项记录</td><td class="center">鼠</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">074期六项</td>
+<td class="center">兔 龙 羊 猴 鸡 狗</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">058期 信息展示</div>
-  <table>
-    <tr><td class="left">058期九项</td><td class="center">蛇 马 羊 猴 鸡 狗 猪 鼠 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">058期六项</td><td class="center">马 羊 鸡 狗 鼠 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">058期四项</td><td class="center">羊 鸡 狗 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">058期三项</td><td class="center">鸡 狗 牛</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">058期一行谜语</td><td class="center">清明时节雨纷纷</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">058期单项记录</td><td class="center">牛</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">074期四项</td>
+<td class="center">龙 羊 猴 鸡</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">057期 信息展示</div>
-  <table>
-    <tr><td class="left">057期九项</td><td class="center">马 羊 猴 鸡 狗 猪 鼠 牛 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">057期六项</td><td class="center">羊 猴 狗 猪 牛 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">057期四项</td><td class="center">猴 狗 猪 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">057期三项</td><td class="center">狗 猪 虎</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">057期一行谜语</td><td class="center">路上行人欲断魂</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">057期单项记录</td><td class="center">虎</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">074期三项</td>
+<td class="center">羊 猴 鸡</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">056期 信息展示</div>
-  <table>
-    <tr><td class="left">056期九项</td><td class="center">羊 猴 鸡 狗 猪 鼠 牛 虎 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">056期六项</td><td class="center">猴 鸡 猪 鼠 虎 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">056期四项</td><td class="center">鸡 猪 鼠 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">056期三项</td><td class="center">猪 鼠 兔</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">056期一行谜语</td><td class="center">借问酒家何处有</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">056期单项记录</td><td class="center">兔</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<tr>
+<td class="left">074期一行谜语</td>
+<td class="center">春风又绿江南岸</td>
+<td class="right">展示</td>
+</tr>
 
-  <div class="period-banner">055期 信息展示</div>
-  <table>
-    <tr><td class="left">055期九项</td><td class="center">猴 鸡 狗 猪 鼠 牛 虎 兔 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">055期六项</td><td class="center">鸡 狗 鼠 牛 兔 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">055期四项</td><td class="center">狗 鼠 牛 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">055期三项</td><td class="center">鼠 牛 龙</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">055期一行谜语</td><td class="center">轻舟已过万重山</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">055期单项记录</td><td class="center">龙</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+</table>
 
-  <div class="period-banner">054期 信息展示</div>
-  <table>
-    <tr><td class="left">054期九项</td><td class="center">鸡 狗 猪 鼠 牛 虎 兔 龙 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">054期六项</td><td class="center">狗 猪 牛 虎 龙 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">054期四项</td><td class="center">猪 牛 虎 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">054期三项</td><td class="center">牛 虎 蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">054期一行谜语</td><td class="center">朝辞白帝彩云间</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">054期单项记录</td><td class="center">蛇</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
 
-  <div class="period-banner">053期 信息展示</div>
-  <table>
-    <tr><td class="left">053期九项</td><td class="center">狗 猪 鼠 牛 虎 兔 龙 蛇 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">053期六项</td><td class="center">猪 鼠 虎 兔 蛇 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">053期四项</td><td class="center">鼠 虎 兔 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">053期三项</td><td class="center">虎 兔 马</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">053期一行谜语</td><td class="center">窗含西岭千秋雪</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">053期单项记录</td><td class="center">马</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<div class="ad">
+<a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank">
+<img src="p6.png">
+</a>
+</div>
 
-  <div class="period-banner">052期 信息展示</div>
-  <table>
-    <tr><td class="left">052期九项</td><td class="center">猪 鼠 牛 虎 兔 龙 蛇 马 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">052期六项</td><td class="center">鼠 牛 兔 龙 马 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">052期四项</td><td class="center">牛 兔 龙 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">052期三项</td><td class="center">兔 龙 羊</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">052期一行谜语</td><td class="center">门泊东吴万里船</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">052期单项记录</td><td class="center">羊</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
 
-  <div class="period-banner">051期 信息展示</div>
-  <table>
-    <tr><td class="left">051期九项</td><td class="center">鼠 牛 虎 兔 龙 蛇 马 羊 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">051期六项</td><td class="center">牛 虎 龙 蛇 羊 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">051期四项</td><td class="center">虎 龙 蛇 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">051期三项</td><td class="center">龙 蛇 猴</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">051期一行谜语</td><td class="center">两个黄鹂鸣翠柳</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">051期单项记录</td><td class="center">猴</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<div class="banner">073期 信息展示</div>
 
-  <div class="period-banner">050期 信息展示</div>
-  <table>
-    <tr><td class="left">050期九项</td><td class="center">牛 虎 兔 龙 蛇 马 羊 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">050期六项</td><td class="center">虎 兔 蛇 马 猴 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">050期四项</td><td class="center">兔 蛇 马 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">050期三项</td><td class="center">蛇 马 鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">050期一行谜语</td><td class="center">一行白鹭上青天</td><td class="right"><span class="tag">展示</span></td></tr>
-    <tr><td class="left">050期单项记录</td><td class="center">鸡</td><td class="right"><span class="tag">展示</span></td></tr>
-  </table>
+<table>
 
-  <div class="footer">
-    信息展示页面 · 图片点击后跳转到公开资料页面
-  </div>
+<tr>
+<td class="left">073期九项</td>
+<td class="center">虎 兔 龙 蛇 马 羊 猴 鸡 狗</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">073期六项</td>
+<td class="center">龙 蛇 马 羊 鸡 狗</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">073期四项</td>
+<td class="center">蛇 马 羊 鸡</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">073期三项</td>
+<td class="center">马 羊 鸡</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">073期一行谜语</td>
+<td class="center">明月何时照我还</td>
+<td class="right">展示</td>
+</tr>
+
+</table>
+
+
+<div class="ad">
+<a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank">
+<img src="p7.png">
+</a>
+</div>
+
+
+<div class="banner">072期 信息展示</div>
+
+<table>
+
+<tr>
+<td class="left">072期九项</td>
+<td class="center">兔 龙 蛇 马 羊 猴 鸡 狗 猪</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">072期六项</td>
+<td class="center">龙 马 羊 猴 狗 猪</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">072期四项</td>
+<td class="center">马 羊 猴 猪</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">072期三项</td>
+<td class="center">羊 猴 猪</td>
+<td class="right">展示</td>
+</tr>
+
+<tr>
+<td class="left">072期一行谜语</td>
+<td class="center">花开时节又逢君</td>
+<td class="right">展示</td>
+</tr>
+
+</table>
+
+
+<div class="ad">
+<a href="https://baike.baidu.com/item/%E6%9E%84%E6%B4%9E%E6%9D%91/15962707" target="_blank">
+<img src="p8.png">
+</a>
+</div>
+
+
+<div class="footer">
+信息展示页面
+</div>
 
 </div>
+
 </body>
 </html>
